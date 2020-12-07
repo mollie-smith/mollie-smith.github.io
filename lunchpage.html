@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+    <link rel="stylesheet" type="text/css" href="mealpages.css">
+    <html lang="en" dir="ltr">
+    <meta charset="utf-8">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <head>
+        <title> Qwick n'EZ Bytes</title>
+</head>
+    <body>
+    <h1>Qwick n'EZ Bytes</h1>
+    <center><a href="homepage.html">Homepage</a>
+    <a href="breakfastpage.html">Breakfast</a>
+    <a href="lunchpage.html">Lunch</a>
+    <a href="dinnerpage.html">Dinner</a></center>
+    <h2>Poor Mans Burrito Bowls</h2>
+    <img src="https://www.budgetbytes.com/wp-content/uploads/2015/09/Poor-Mans-Burrito-Bowls-eat.jpg">
+    <p>These easy no-frills burrito bowls are super fast and affordable. They're the perfect satisfying weeknight meal for times when money is tight!</p>
+    <p>Prep Time : 5 min Cook Time: 20 mins Total Time: 25 min</p>
+    <h4><u>Recipe Measurements:</u></h4><div>
+        <table style="width:100%">
+            <tr>
+                <th>Ingredients</th>
+                <th>Amount</th>
+            </tr>
+            <tr>
+                <td>uncooked long grain rice</td>
+                <td>2 Cups</td>
+            </tr>
+            <tr>
+                <td>Sal</td>
+                <td>1/2 tsp</td>
+            </tr>
+            <tr>
+                <td>Black Beans</td>
+                <td>2 15oz Cans</td>
+            </tr>
+            <tr>
+                <td>Ground Cumin</td>
+                <td>1/2 tsp</td>
+            </tr>
+            <tr>
+                <td>Garlic Powder</td>
+                <td>1/4 tsp</td>
+            </tr>
+            <tr>
+                <td>Salsa</td>
+                <td>1 16oz Jar</td>
+            </tr>
+            <tr>
+                <td>Shredded Cheese</td>
+                <td>6oz</td>
+            </tr>
+            <tr>
+                <td>Green Onion</td>
+                <td>1 Bunch</td>
+            </tr>
+        </table>
+    <h2>Instructions</h2>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/PNAm7z9gOzk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <ol>
+        <li>Add the rice, salt, and 3 cups water to a medium sauce pot. Place a lid on top, turn the heat on to high, and allow the water to come up to a full boil. Once boiling, turn the heat down to low and let it continue to simmer for 15 minutes. After 15 minutes, turn the heat off and let it sit, with the lid in place, for an additional five minutes. Fluff just before serving.</li>
+        <li>While the rice is cooking, make the beans. Add both cans of black beans (undrained) to a small sauce pot, along with the cumin, and garlic powder. Heat over medium, stirring often, until heated through.</li>
+        <li>Slice the green onions and jalapeño (if using).</li>
+        <li>Once the rice is cooked, build the bowls. Add one cup cooked rice, 1/2 cup warm black beans, 1/3 cup salsa, and 1 oz. shredded cheese (about 1/4 cup) to each bowl. Top with a few sliced green onions and jalapeños, then serve.</li>
+        <li>Enjoy!</li>
+    </ol>
+    <br></br>
+     <center><h3><u>Did you enjoy the recipe?</u></h3>
+        <center><div class="container">
+      <div class="post">
+        <div class="text">Thanks for rating us!</div>
+        <div class="edit">EDIT</div>
+      </div>
+      <div class="star-widget">
+        <input type="radio" name="rate" id="rate-5">
+        <label for="rate-5" class="fas fa-star"></label>
+        <input type="radio" name="rate" id="rate-4">
+        <label for="rate-4" class="fas fa-star"></label>
+        <input type="radio" name="rate" id="rate-3">
+        <label for="rate-3" class="fas fa-star"></label>
+        <input type="radio" name="rate" id="rate-2">
+        <label for="rate-2" class="fas fa-star"></label>
+        <input type="radio" name="rate" id="rate-1">
+        <label for="rate-1" class="fas fa-star"></label>
+        <form action="#">
+          <header></header>
+          <div class="textarea">
+            <textarea cols="30" placeholder="Describe your experience.."></textarea>
+          </div>
+          <div class="btn">
+            <button type="submit">Post</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  <script>
+    ///Main page configuration:
+   const btn = document.querySelector("button");
+      const post = document.querySelector(".post");
+      const widget = document.querySelector(".star-widget");
+      const editBtn = document.querySelector(".edit");
+      btn.onclick = ()=>{
+        widget.style.display = "none";
+        post.style.display = "block";
+        editBtn.onclick = ()=>{
+          widget.style.display = "block";
+          post.style.display = "none";
+        }
+        return false;
+      }
+  </script>
+</body>
+</html>
