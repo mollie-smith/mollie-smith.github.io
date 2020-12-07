@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+    <link rel="stylesheet" type="text/css" href="mealpages.css">
+    <html lang="en" dir="ltr">
+    <meta charset="utf-8">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+        <title> Qwick n'EZ Bytes</title>
+</head>
+    <body>
+    <h1>Qwick n'EZ Bytes</h1>
+    <center><a href="homepage.html">Homepage</a>
+    <a href="breakfastpage.html">Breakfast</a>
+    <a href="lunchpage.html">Lunch</a>
+    <a href="dinnerpage.html">Dinner</a></center>
+    <h2>French Toast</h2>
+    <img src="https://fortheloveofyum.files.wordpress.com/2010/03/20570_348329770738_341427210738_4746290_911209_n.jpg">
+    <p>French toast, or pain perdu in French, has been around for a very long time! It’s typically made with day-old bread, or bread that you might otherwise toss. The type of bread you use really makes a big difference! I love to use either French bread or brioche bread. Brioche bread is a very rich and buttery bread that’s perfect for this recipe.  Go for pre-sliced brioche bread to make things super easy. If it’s not pre-sliced, cut the bread down to 1/2-inch thick slices.</p>
+    <h4><u>Recipe Measurements:</u></h4><div>
+        <table style="width:100%">
+            <tr>
+                <th>Ingredients</th>
+                <th>Amount</th>
+            </tr>
+            <tr>
+                <td>Toast</td>
+                <td>2 Slices</td>
+            </tr>
+            <tr>
+                <td>Eggs</td>
+                <td>2 Eggs</td>
+            </tr>
+            <tr>
+                <td>Berries</td>
+                <td>1 Cup</td>
+            </tr>
+            <tr>
+                <td>Milk</td>
+                <td>1/4 Cup</td>
+            </tr>
+            <tr>
+                <td>Cinnamon</td>
+                <td>1 tsp</td>
+            </tr>
+            <tr>
+                <td>Vanilla</td>
+                <td>1 tsp</td>
+            </tr>
+            <tr>
+                <td>Maple Syrup</td>
+                <td>3 Tbs</td>
+            </tr>
+        </table>
+    <h2>Instructions</h2>
+   <iframe width="560" height="315" src="https://www.youtube.com/embed/eTEuF-S2c_Y" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <ol>
+        <li>Whisk 2 eggs in a bowl.</li>
+        <li>Soak raisin bread in egg bowl.</li>
+        <li>Place each slice on pan and cook for 5 minutes each side.</li>
+        <li>Add ricotta cheese, maple syrup and.</li>
+        <li>Enjoy!</li>
+    </ol>
+    <br></br>
+    <center><h3><u>Did you enjoy the recipe?</u></h3>
+        <center><div class="container">
+      <div class="post">
+        <div class="text">Thanks for rating us!</div>
+        <div class="edit">EDIT</div>
+      </div>
+      <div class="star-widget">
+        <input type="radio" name="rate" id="rate-5">
+        <label for="rate-5" class="fas fa-star"></label>
+        <input type="radio" name="rate" id="rate-4">
+        <label for="rate-4" class="fas fa-star"></label>
+        <input type="radio" name="rate" id="rate-3">
+        <label for="rate-3" class="fas fa-star"></label>
+        <input type="radio" name="rate" id="rate-2">
+        <label for="rate-2" class="fas fa-star"></label>
+        <input type="radio" name="rate" id="rate-1">
+        <label for="rate-1" class="fas fa-star"></label>
+        <form action="#">
+          <header></header>
+          <div class="textarea">
+            <textarea cols="30" placeholder="Describe your experience.."></textarea>
+          </div>
+          <div class="btn">
+            <button type="submit">Post</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  <script>
+    ///Main page configuration:
+    const btn = document.querySelector("button");
+    const post = document.querySelector(".post");
+    const widget = document.querySelector(".star-widget");
+    const editBtn = document.querySelector(".edit");
+        btn.onclick = ()=>{
+            widget.style.display = "none";
+            post.style.display = "block";
+        editBtn.onclick = ()=>{
+            widget.style.display = "block";
+            post.style.display = "none";
+        }
+        return false;
+      }
+  </script>
+</body>
+</html>
